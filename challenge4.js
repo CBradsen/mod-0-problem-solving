@@ -5,7 +5,7 @@
 // tried it with: if (words[i].contains("ing")) {
  //   }
 // and got TypeError: words[i].contains is not a function
-// googled again, going to try: includes(). now it prints everything. not just ing words
+// googled again, going to try: includes(). now it prints everything. not just ing words. after adjusting { } and including, then not including then including "" again around "ing" it worked! 
 
 
 var words = ["Ing", "NOTthing", "Cat", "Dog", "Thing", "Thing2"]
